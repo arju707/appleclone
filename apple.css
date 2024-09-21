@@ -1,0 +1,379 @@
+body{
+    margin: 0px;
+}
+.main{
+   /* width: 100%; */
+   background-color: black;
+   position: absolute;
+   height:auto;
+}
+.nav{
+    margin: 0px;
+    height: 45px;
+    width: 2000px;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0.711);
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    position: fixed;
+    z-index: 1000;
+    
+}
+.logo{
+    height: 17px;
+    padding-right: 40px;
+    padding-left: 180px;
+}
+.searchbutton{
+    padding-top: 4px;
+    padding-left: 38px;
+    opacity: 0.59;
+    height: 14px;
+    width: 15px;
+}
+.store{
+    padding-top: 1px;
+    padding-left: 41px;
+    height: 17px;
+    width: 16px;
+}
+.navcont{
+    font-size: 12px;
+    font-weight:100;
+    font-family:  Arial, sans-serif;
+    display: flex;
+    word-spacing: 35px;
+    height: 44px;
+    letter-spacing: 0.9px;
+    padding-right: 600px;
+    font-size: 11px;
+    letter-spacing: 1.1px;
+    position: fixed;
+    /* z-index: 100; */
+}
+.hero{
+    width: 100%;
+    height:auto;
+    background-color: black;
+     position: relative; 
+    margin-top: 45px;
+    height: 780px;
+}
+.hero1img{
+    width: 50%;
+    justify-content: center;
+    margin-left: 350px;
+    align-items: center;
+}
+.p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    position:absolute;
+    font-size: 30px;
+    left: 305px;
+    bottom: 90px;
+    word-spacing: 1px;
+
+}
+.button1{
+    color: white;
+    border: 1px solid white;
+    border-radius:30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: SF pro text;
+    font-size: 17px;
+    line-height: 1.17;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    margin: 28px 0px 0px;
+    padding: 17px 30px;
+    position: absolute;
+    top: 650px;
+    right: 600px;
+}
+.scndhero{
+    width: 50%;
+    justify-content: center;
+    /* margin-left: 350px */
+    align-items: center;
+    /* height: 400px; */
+    position: relative;
+    /* display: flex; */
+}
+.secp{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 300; */
+    text-align: center;
+    position:absolute;
+    font-size: 20px;
+    left: 350px;
+    /* justify-content: center; */
+    bottom: 220px;
+    /* top: 300px; */
+    /* word-spacing: 1px; */
+    /* background-color: red; */
+    width: 800px;
+    font-weight:bold;
+    font-size:larger;
+}
+.thrdp{
+   
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    text-align: center;
+    position:relative;
+    /* background-color: red; */
+    left: 400px;
+    bottom: 100px;
+    /* margin-bottom: ; */
+    /* background-color: red; */
+    
+
+}
+
+.lern{
+    color: white;
+    border: 1px solid white;
+    border-radius:30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: SF pro text;
+    font-size: 17px;
+    line-height: 1.17;
+    font-weight: 400;
+    letter-spacing: -0.010em;
+    margin: 28px 0px 0p;
+    padding: 17px 30px;
+    position: absolute;
+    top: 950px;
+    left:600px;
+    padding: 15px;
+/* background-color: red; */
+}
+.viewprice{
+    color: white;
+    border: 1px solid white;
+    border-radius:30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: SF pro text;
+    font-size: 17px;
+    line-height: 1.17;
+    font-weight: 400;
+    letter-spacing: -0.010em;
+    margin: 28px 0px 0px;
+    padding: 17px 30px;
+    position: absolute;
+    top: 910px;
+    left:700px;
+    /* padding: 18px 50px; */
+/* background-color: red; */
+
+}
+.thirdsecbag{
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(to bottom,#0071e3,white);
+}
+
+.thirdsec{
+    background-image: url(./assets/iphone_16__bf3yv2bah15u_large_2x.png);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 920px;
+    background-position: center;
+}
+.forthsec{
+    background-color: white;
+    height: 1000px;
+    width: 100%;
+    /* position: absolute; */
+
+}
+.watch{
+    background-image: url(./assets/watch_series_10__bjzia1opgyuq_large_2x.jpeg.jpg);
+    background-size: 1625px;
+    height: 1200px;
+    background-repeat: no-repeat;
+   position: relative;
+   background-position: center 500px;
+
+}  
+.smartwatch{
+    background-color: white;
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+
+
+
+}
+.watch2{
+
+    background-image: url(./assets/watch_2__didkrmqgz0ia_large_2x.jpeg.jpg);
+    background-size: 1625px;
+    height: 1200px;
+    background-repeat: no-repeat;
+    position:relative;
+    align-items: center;
+    background-position: center 500px;
+
+}
+.earpod{
+    background-color: red;
+    position: absolute;
+    width: 500px;
+    height:  1000px;
+
+}
+.earpodgirl{
+    height: 1000px;
+    width: 1440px;
+}
+.airmax{
+    background-color:blue;
+    /* position: absolute; */
+    width: 500px;
+    height: 1000px;
+
+}
+.airmaximg{
+    height: 1000px;
+    /* position: relative;   */
+    width: 500px;
+
+}
+.smartwatchtxt{
+    color:white;
+    position: relative;
+    justify-content: center;
+    top: 200px;
+    font-size:x-large;
+    font-weight: bold;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.buttn4{
+    color: white;
+    border: 1px solid white;
+    border-radius:30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: SF pro text;
+    font-size: 17px;
+    line-height: 1.17;
+    font-weight: 400;
+    letter-spacing: -0.010em;
+    margin: 28px 0px 0px;
+    padding: 17px 30px;
+    position: absolute;
+    top: 280px;
+    left:550px;
+    padding: 18px 50px;
+background-color: black;
+
+}
+.buttn5{
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    border-radius:30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: SF pro text;
+    font-size: 17px;
+    line-height: 1.17;
+    font-weight: 400;
+    letter-spacing: -0.010em;
+    margin: 28px 0px 0px;
+    padding: 17px 30px;
+    position: absolute;
+    top: 280px;
+    left:750px;
+    padding: 18px 50px;
+/* background-color: red; */
+}
+.thirdp{
+    color:black;
+    position: relative;
+    justify-content: center;
+    top: 800px;
+    left: 350px;
+    font-size:x-large;
+    font-weight: bold;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.phonebtn1{ color:black;
+    border: 1px solid black transparent;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius:30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: SF pro text;
+    font-size: 17px;
+    line-height: 1.17;
+    font-weight: 400;
+    letter-spacing: -0.010em;
+    margin: 28px 0px 0px;
+    padding: 17px 30px;
+    position: absolute;
+    top: 2800px;
+    left:750px;
+    padding: 18px 50px;
+/* background-color: red; */
+
+}
+.phoneprice{
+    color:black;
+    border: 1px solid balck transparent;
+    background-color:rgba(255, 255, 255, 0);
+    border-radius:30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: SF pro text;
+    font-size: 17px;
+    line-height: 1.17;
+    font-weight: 400;
+    letter-spacing: -0.010em;
+    margin: 28px 0px 0px;
+    padding: 17px 30px;
+    position: absolute;
+    top: 2800px;
+    left:500px;
+    padding: 18px 50px;
+/* background-color: red; */
+}
+
+.parent8{
+    display: flex;
+}
+.bag9{
+    background-color: rgba(255, 255, 255, 0.973);
+    height: 800px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top:5850px;
+    margin-bottom: 0px;
+}
+table{
+    position: relative;
+width: 1000px;
+margin: 270px;
+margin-top: 50px;
+margin-bottom: 50px;
+/* background-color: aqua; */
+font-size: 12px;
+background-color: white;
+color: #0a0a0a93;
+font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; ;
+}
